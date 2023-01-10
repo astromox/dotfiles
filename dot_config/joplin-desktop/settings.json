@@ -1,0 +1,72 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_GB",
+	"api.token": "63b0d0bec381099397b5a370cf38c7b623222f27b335ea3daace7c1372155ab75a6dfd787f0a961f9cb222785aed18447b94c836c5187e604085048fc1756e75",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.language": "en-US",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "tempContainer-peaQGLwHB9SHCqlEyIzoAT",
+				"children": [
+					{
+						"key": "noteList",
+						"visible": true
+					},
+					{
+						"key": "sideBar",
+						"visible": true
+					}
+				],
+				"visible": true,
+				"width": 222
+			},
+			{
+				"key": "tempContainer-x5RBsvxSTJgs6wXPeRaffZ",
+				"children": [
+					{
+						"key": "plugin-view-joplin.plugin.note.tabs-note.tabs.panel",
+						"context": {
+							"pluginId": "joplin.plugin.note.tabs"
+						},
+						"visible": true,
+						"height": 40
+					},
+					{
+						"key": "editor",
+						"visible": true
+					}
+				],
+				"visible": true
+			},
+			{
+				"key": "plugin-view-outline-outline.panel",
+				"context": {
+					"pluginId": "outline"
+				},
+				"visible": false
+			},
+			{
+				"key": "plugin-view-joplin-plugin-knowledge-graph-graph",
+				"context": {
+					"pluginId": "joplin-plugin-knowledge-graph"
+				},
+				"visible": false
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"sync.target": 3,
+	"clipperServer.autoStart": true,
+	"theme": 2,
+	"spellChecker.languages": [
+		"en-US"
+	],
+	"editor.spellcheckBeta": true
+}
